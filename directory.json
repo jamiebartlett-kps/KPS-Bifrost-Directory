@@ -24,6 +24,14 @@
         "type": "Commerce"
     },
     {
+        "name": "MedusaJS",
+        "directory": "Medusa",
+        "description": "Connect MedusaJS Commerce to Bifrost.",
+        "url": "https://github.com/jamiebartlett-kps/KPS-Bifrost-Medusa",
+        "icon": "MedusaLogo.png",
+        "type": "Commerce"
+    },
+    {
         "name": "Strapi CMS",
         "directory": "strapi",
         "description": "Add Strapi CMS for content management.",
