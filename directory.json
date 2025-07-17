@@ -25,10 +25,18 @@
     },
     {
         "name": "MedusaJS",
-        "directory": "Medusa",
+        "directory": "medusa",
         "description": "Connect MedusaJS Commerce to Bifrost.",
         "url": "https://github.com/jamiebartlett-kps/KPS-Bifrost-Medusa",
         "icon": "MedusaLogo.png",
+        "type": "Commerce"
+    },
+    {
+        "name": "Scayle Commerce",
+        "directory": "scayle",
+        "description": "Connect Scayle Commerce to Bifrost.",
+        "url": "https://github.com/jamiebartlett-kps/KPS-Bifrost-Scayle",
+        "icon": "ScayleLogo.png",
         "type": "Commerce"
     },
     {
