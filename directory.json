@@ -1,0 +1,30 @@
+[
+    {
+        "name": "OpenAI Search",
+        "description": "AI-powered product search and recommendations.",
+        "url": "https://github.com/jamiebartlett-kps/bifrost-openai",
+        "icon": "OpenAILogo.png",
+        "type": "Feature"
+    },
+    {
+        "name": "Shopify Commerce",
+        "description": "Integrate Shopify as a commerce backend.",
+        "url": "https://github.com/jamiebartlett-kps/bifrost-shopify",
+        "icon": "ShopifyLogo.png",
+        "type": "Commerce"
+    },
+    {
+        "name": "SAP Commerce",
+        "description": "Connect SAP Commerce Cloud to Bifrost.",
+        "url": "https://github.com/jamiebartlett-kps/bifrost-sap-commerce",
+        "icon": "SAPLogo.png",
+        "type": "Commerce"
+    },
+    {
+        "name": "Strapi CMS",
+        "description": "Add Strapi CMS for content management.",
+        "url": "https://github.com/jamiebartlett-kps/bifrost-cms",
+        "icon": "StrapiLogo.png",
+        "type": "CMS"
+    }
+]
