@@ -46,5 +46,13 @@
         "url": "https://github.com/jamiebartlett-kps/KPS-Bifrost-Strapi",
         "icon": "StrapiLogo.png",
         "type": "CMS"
+    },
+    {
+        "name": "RedisCache",
+        "directory": "redis",
+        "description": "Add RedisCache for caching.",
+        "url": "https://github.com/jamiebartlett-kps/KPS-Bifrost-Redis",
+        "icon": "RedisLogo.png",
+        "type": "Feature"
     }
 ]
