@@ -54,5 +54,13 @@
         "url": "https://github.com/jamiebartlett-kps/KPS-Bifrost-Redis",
         "icon": "RedisLogo.png",
         "type": "Feature"
+    },
+    {
+        "name": "Grafana",
+        "directory": "grafana",
+        "description": "Add Grafana for monitoring and observability.",
+        "url": "https://github.com/jamiebartlett-kps/KPS-Bifrost-Grafana",
+        "icon": "GrafanaLogo.png",
+        "type": "Feature"
     }
 ]
