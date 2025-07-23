@@ -62,5 +62,13 @@
         "url": "https://github.com/jamiebartlett-kps/KPS-Bifrost-Grafana",
         "icon": "GrafanaLogo.png",
         "type": "Feature"
+    },
+    {
+        "name": "Heimdall",
+        "directory": "heimdall",
+        "description": "Add Heimdall tunnel for remote access to development instances.",
+        "url": "https://github.com/jamiebartlett-kps/KPS-Bifrost-Heimdall",
+        "icon": "HeimdallLogo.png",
+        "type": "Feature"
     }
 ]
