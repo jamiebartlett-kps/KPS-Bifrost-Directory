@@ -70,5 +70,13 @@
         "url": "https://github.com/jamiebartlett-kps/KPS-Bifrost-Heimdall",
         "icon": "HeimdallLogo.png",
         "type": "Feature"
-    }
+    },
+    {
+        "name": "Meili Search",
+        "directory": "meili",
+        "description": "Add Meili Search integration.",
+        "url": "https://github.com/jamiebartlett-kps/KPS-Bifrost-MeiliSearch",
+        "icon": "MeiliLogo.png",
+        "type": "Feature"
+    },
 ]
