@@ -1,82 +1,36 @@
 [
     {
-        "name": "Open AI",
-        "directory": "openai",
+        "label": "Open AI",
+        "name": "openai",
         "description": "AI-powered product search and recommendations.",
-        "url": "https://github.com/jamiebartlett-kps/KPS-Bifrost-OpenAI",
-        "icon": "OpenAILogo.png",
-        "type": "Feature"
+        "image": "europe-west2-docker.pkg.dev/envoydigital-hybris/kps-bifrost/bifrost-openai:latest",
+        "icon": "https://cdn.brandfetch.io/idR3duQxYl/w/800/h/800/theme/light/symbol.png?c=1bxid64Mup7aczewSAYMX&t=1749527480180",
+        "type": "Feature",
+        "questions": []
     },
     {
-        "name": "Shopify Commerce",
-        "directory": "shopify",
-        "description": "Integrate Shopify as a commerce backend.",
-        "url": "https://github.com/jamiebartlett-kps/KPS-Bifrost-Shopify",
-        "icon": "ShopifyLogo.png",
-        "type": "Commerce"
-    },
-    {
-        "name": "SAP Commerce",
-        "directory": "sap-commerce",
-        "description": "Connect SAP Commerce Cloud to Bifrost.",
-        "url": "https://github.com/jamiebartlett-kps/KPS-Bifrost-SAP-Commerce",
-        "icon": "SAPLogo.png",
-        "type": "Commerce"
-    },
-    {
-        "name": "MedusaJS",
-        "directory": "medusa",
-        "description": "Connect MedusaJS Commerce to Bifrost.",
-        "url": "https://github.com/jamiebartlett-kps/KPS-Bifrost-Medusa",
-        "icon": "MedusaLogo.png",
-        "type": "Commerce"
-    },
-    {
-        "name": "Scayle Commerce",
-        "directory": "scayle",
-        "description": "Connect Scayle Commerce to Bifrost.",
-        "url": "https://github.com/jamiebartlett-kps/KPS-Bifrost-Scayle",
-        "icon": "ScayleLogo.png",
-        "type": "Commerce"
-    },
-    {
-        "name": "Strapi CMS",
-        "directory": "strapi",
-        "description": "Add Strapi CMS for content management.",
-        "url": "https://github.com/jamiebartlett-kps/KPS-Bifrost-Strapi",
-        "icon": "StrapiLogo.png",
-        "type": "CMS"
-    },
-    {
-        "name": "RedisCache",
-        "directory": "redis",
-        "description": "Add RedisCache for caching.",
-        "url": "https://github.com/jamiebartlett-kps/KPS-Bifrost-Redis",
-        "icon": "RedisLogo.png",
-        "type": "Feature"
-    },
-    {
-        "name": "Grafana",
-        "directory": "grafana",
-        "description": "Add Grafana for monitoring and observability.",
-        "url": "https://github.com/jamiebartlett-kps/KPS-Bifrost-Grafana",
-        "icon": "GrafanaLogo.png",
-        "type": "Feature"
-    },
-    {
-        "name": "Heimdall",
-        "directory": "heimdall",
-        "description": "Add Heimdall tunnel for remote access to development instances.",
-        "url": "https://github.com/jamiebartlett-kps/KPS-Bifrost-Heimdall",
-        "icon": "HeimdallLogo.png",
-        "type": "Feature"
-    },
-    {
-        "name": "Meili Search",
-        "directory": "meili",
-        "description": "Add Meili Search integration.",
-        "url": "https://github.com/jamiebartlett-kps/KPS-Bifrost-MeiliSearch",
-        "icon": "MeiliLogo.png",
-        "type": "Feature"
+        "label": "Algolia",
+        "name": "algolia",
+        "description": "Powerful search and discovery with Algolia integration.",
+        "image": "europe-west2-docker.pkg.dev/envoydigital-hybris/kps-bifrost/bifrost-algolia:latest",
+        "icon": "https://cdn.brandfetch.io/idJVMFSF-i/theme/light/symbol.svg?c=1bxid64Mup7aczewSAYMX&t=1668151848855",
+        "type": "Search",
+        "questions": [
+            {
+                "type": "input",
+                "name": "algoliaAppId",
+                "message": "Algolia App ID:"
+            },
+            {
+                "type": "input",
+                "name": "algoliaApiKey",
+                "message": "Algolia API Key:"
+            },
+            {
+                "type": "input",
+                "name": "algoliaIndexName",
+                "message": "Algolia Index Name:"
+            }
+        ]
     }
 ]
