@@ -55,5 +55,145 @@
                 "message": "Algolia Index Name:"
             }
         ]
+    },
+    {
+        "label": "Shopify",
+        "name": "shopify",
+        "description": "Shopify commerce integration.",
+        "image": "europe-west2-docker.pkg.dev/envoydigital-hybris/kps-bifrost/bifrost-shopify:latest",
+        "icon": "https://cdn.brandfetch.io/idAgPm7IvG/w/800/h/910/theme/light/symbol.png?c=1bxid64Mup7aczewSAYMX&t=1720758863635",
+        "type": "Commerce",
+        "questions": [
+            {
+                "type": "input",
+                "name": "shopifyStoreUrl",
+                "message": "Shopify Store URL:"
+            },
+            {
+                "type": "input",
+                "name": "shopifyApiVersion",
+                "message": "Shopify API Version:"
+            },
+            {
+                "type": "input",
+                "name": "shopifyStorefrontAccessToken",
+                "message": "Shopify Storefront Access Token:"
+            },
+            {
+                "type": "input",
+                "name": "shopifyAdminAccessToken",
+                "message": "Shopify Admin Access Token:"
+            },
+            {
+                "type": "input",
+                "name": "shopifyNavigationHandle",
+                "message": "Shopify Navigation Handle:"
+            }
+        ]
+    },
+    {
+        "label": "Scayle",
+        "name": "scayle",
+        "description": "Scayle commerce integration.",
+        "image": "europe-west2-docker.pkg.dev/envoydigital-hybris/kps-bifrost/bifrost-scayle:latest",
+        "icon": "https://cdn.brandfetch.io/idY7sCEaO5/w/180/h/180/theme/dark/logo.png?c=1bxid64Mup7aczewSAYMX&t=1756810387400",
+        "type": "Commerce",
+        "questions": [
+            {
+                "type": "input",
+                "name": "scayleApiKey",
+                "message": "Scayle API Key:"
+            },
+            {
+                "type": "input",
+                "name": "scayleTenant",
+                "message": "Scayle Tenant:"
+            },
+            {
+                "type": "input",
+                "name": "scayleShopId",
+                "message": "Scayle Shop ID:"
+            },
+            {
+                "type": "input",
+                "name": "scayleClientId",
+                "message": "Scayle Client ID:"
+            },
+            {
+                "type": "input",
+                "name": "scayleClientSecret",
+                "message": "Scayle Client Secret:"
+            },
+            {
+                "type": "input",
+                "name": "scayleNavigationId",
+                "message": "Scayle Navigation ID:"
+            },
+            {
+                "type": "input",
+                "name": "scayleCheckoutSecret",
+                "message": "Scayle Checkout Secret:"
+            },
+            {
+                "type": "input",
+                "name": "scayleCheckoutUrl",
+                "message": "Scayle Checkout URL:"
+            },
+            {
+                "type": "input",
+                "name": "scayleVariantAttributeKey",
+                "message": "Scayle Variant Attribute Key:"
+            }
+        ]
+    },
+    {
+        "label": "SAP Commerce",
+        "name": "sap-commerce",
+        "description": "SAP Commerce integration.",
+        "image": "europe-west2-docker.pkg.dev/envoydigital-hybris/kps-bifrost/bifrost-sap-commerce:latest",
+        "icon": "https://cdn.brandfetch.io/idQXbkxScC/w/800/h/396/theme/dark/idL9dEduKh.png?c=1bxid64Mup7aczewSAYMX&t=1675843846371",
+        "type": "Commerce",
+        "questions": [
+            {
+                "type": "input",
+                "name": "occUrl",
+                "message": "Occ URL:"
+            },
+            {
+                "type": "input",
+                "name": "oauthClientID",
+                "message": "OAuth Client ID:"
+            },
+            {
+                "type": "input",
+                "name": "oauthClientSecret",
+                "message": "OAuth Client Secret:"
+            },
+            {
+                "type": "input",
+                "name": "cdnBaseUrl",
+                "message": "CDN Base URL:"
+            },
+            {
+                "type": "input",
+                "name": "baseSite",
+                "message": "Base Site:"
+            },
+            {
+                "type": "input",
+                "name": "rootCategory",
+                "message": "Root Category:"
+            },
+            {
+                "type": "input",
+                "name": "navigationComponentId",
+                "message": "Navigation Component ID:"
+            },
+            {
+                "type": "input",
+                "name": "variantOptionPriority",
+                "message": "Variant Option Priority (comma-separated):"
+            }
+        ]
     }
 ]
