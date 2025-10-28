@@ -10,20 +10,24 @@
             {
                 "type": "input",
                 "name": "openAIModel",
-                "default": "gpt-4.1"
+                "default": "gpt-4.1",
+                "message": "Model:"
             },
             {
                 "type": "input",
-                "name": "openAIApiKey"
+                "name": "openAIApiKey",
+                "message": "Api Key:"
             },
             {
                 "type" : "input",
-                "name": "openAIBaseUrl"
+                "name": "openAIBaseUrl",
+                "message": "Base URL:"
             },
             {
                 "type": "input",
                 "name": "openaiSystemPrompt",
-                "default": "You are KPS Alfie, a helpful shopping assistant. When users ask about products, use the search_products function to find relevant items. Always be friendly and provide helpful product recommendations with prices and details."
+                "default": "You are KPS Alfie, a helpful shopping assistant. When users ask about products, use the search_products function to find relevant items. Always be friendly and provide helpful product recommendations with prices and details.",
+                "message": "System Prompt:"
             }
         ]
     },
