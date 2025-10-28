@@ -6,7 +6,26 @@
         "image": "europe-west2-docker.pkg.dev/envoydigital-hybris/kps-bifrost/bifrost-openai:latest",
         "icon": "https://cdn.brandfetch.io/idR3duQxYl/w/800/h/800/theme/light/symbol.png?c=1bxid64Mup7aczewSAYMX&t=1749527480180",
         "type": "Feature",
-        "questions": []
+        "questions": [
+            {
+                "type": "input",
+                "name": "openAIModel",
+                "default": "gpt-4.1"
+            },
+            {
+                "type": "input",
+                "name": "openAIApiKey"
+            },
+            {
+                "type" : "input",
+                "name": "openAIBaseUrl"
+            },
+            {
+                "type": "input",
+                "name": "openaiSystemPrompt",
+                "default": "You are KPS Alfie, a helpful shopping assistant. When users ask about products, use the search_products function to find relevant items. Always be friendly and provide helpful product recommendations with prices and details."
+            }
+        ]
     },
     {
         "label": "Algolia",
