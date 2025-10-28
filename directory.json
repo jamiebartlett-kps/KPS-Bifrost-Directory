@@ -195,5 +195,25 @@
                 "message": "Variant Option Priority (comma-separated):"
             }
         ]
+    },
+    {
+        "label": "Strapi",
+        "name": "strapi",
+        "description": "Strapi CMS integration.",
+        "image": "europe-west2-docker.pkg.dev/envoydigital-hybris/kps-bifrost/bifrost-strapi:latest",
+        "icon": "https://cdn.brandfetch.io/idlqZpnu18/w/800/h/800/theme/dark/symbol.png?c=1bxid64Mup7aczewSAYMX&t=1708005045932",
+        "type": "CMS",
+        "questions": [
+            {
+                "type": "input",
+                "name": "baseUrl",
+                "message": "Base URL:"
+            },
+            {
+                "type": "input",
+                "name": "strapiAuthToken",
+                "message": "Strapi Auth Token:"
+            }
+        ]
     }
 ]
