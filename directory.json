@@ -4,7 +4,7 @@
         "name": "openai",
         "description": "AI-powered product search and recommendations.",
         "image": "europe-west2-docker.pkg.dev/envoydigital-hybris/kps-bifrost/bifrost-openai:latest",
-        "icon": "https://cdn.brandfetch.io/idR3duQxYl/w/800/h/800/theme/light/symbol.png?c=1bxid64Mup7aczewSAYMX&t=1749527480180",
+        "icon": "https://cdn.brandfetch.io/idR3duQxYl/theme/dark/symbol.svg?c=1bxid64Mup7aczewSAYMX&t=1749527471692",
         "type": "Feature",
         "questions": [
             {
@@ -36,7 +36,7 @@
         "name": "algolia",
         "description": "Powerful search and discovery with Algolia integration.",
         "image": "europe-west2-docker.pkg.dev/envoydigital-hybris/kps-bifrost/bifrost-algolia:latest",
-        "icon": "https://cdn.brandfetch.io/idJVMFSF-i/theme/light/symbol.svg?c=1bxid64Mup7aczewSAYMX&t=1668151848855",
+        "icon": "https://cdn.brandfetch.io/idJVMFSF-i/theme/dark/symbol.svg?c=1bxid64Mup7aczewSAYMX&t=1668151847925",
         "type": "Search",
         "questions": [
             {
@@ -61,7 +61,7 @@
         "name": "shopify",
         "description": "Shopify commerce integration.",
         "image": "europe-west2-docker.pkg.dev/envoydigital-hybris/kps-bifrost/bifrost-shopify:latest",
-        "icon": "https://cdn.brandfetch.io/idAgPm7IvG/w/800/h/910/theme/light/symbol.png?c=1bxid64Mup7aczewSAYMX&t=1720758863635",
+        "icon": "https://cdn.brandfetch.io/idAgPm7IvG/theme/dark/symbol.svg?c=1bxid64Mup7aczewSAYMX&t=1720758863540",
         "type": "Commerce",
         "questions": [
             {
@@ -151,7 +151,7 @@
         "name": "sap-commerce",
         "description": "SAP Commerce integration.",
         "image": "europe-west2-docker.pkg.dev/envoydigital-hybris/kps-bifrost/bifrost-sap-commerce:latest",
-        "icon": "https://cdn.brandfetch.io/idQXbkxScC/w/800/h/396/theme/dark/idL9dEduKh.png?c=1bxid64Mup7aczewSAYMX&t=1675843846371",
+        "icon": "https://cdn.brandfetch.io/idQXbkxScC/theme/dark/logo.svg?c=1bxid64Mup7aczewSAYMX&t=1675843845700",
         "type": "Commerce",
         "questions": [
             {
